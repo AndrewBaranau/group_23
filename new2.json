@@ -1,0 +1,15 @@
+ {
+  "name": "Andrei Baranau",
+  "age": "41",
+  "animals": [
+              "guinea pig",
+              "dog",
+              "cat"
+              ]
+  "best_film":"titanic",
+  "best_series":"brigada",
+  "best_season":"winter",
+  "best_food":"milk",
+  "country_to_visit":"Japane",
+  "add_info":"now info"
+ }

@@ -1,0 +1,105 @@
+Task :
+  Создайте текстоовый файл как в первом ДЗ по Terminal.
+  Сценарий перенесите в этот файл.
+  На против каждого действия - напишите команду в GitBash
+ 1. Создать файл “new.json”
+ 2. Добавить файл под гит.
+ 3. Закоммитить файл.
+ 4. Отправить файл на внешний GitHub репозиторий.
+ 5. Создать файлы new2.json, new2.xml, new2.txt
+ 6. Добавить файлы под гит.
+ 7. Закоммитить файлы.
+ 8. Отправить файлы на внешний GitHub репозиторий.
+ 9. Отредактировать содержание файла “new2.txt” - написать информацию о себе 
+     (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
+ 10. Отредактировать содержание файла “new2.json” - написать информацию о себе
+     (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+ 11. Добавить и закоммитить “new2.txt” одной строчкой. 
+ 12. Добавить и закоммитить “new2.json” одной строчкой. 
+ 13. Отправить изменения на внешний репозиторий.
+ 14. Отредактировать содержание файла “new2.xml” - написать информацию о себе
+     (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+     Всё написать в формате XML.
+ 15. Добавить и закоммитить “new2.xml” одной строчкой. 
+ 16. Отправить изменения на внешний репозиторий.
+ 17. Отправить предыдущее домашнее задание по GitBush Terminal на внешний репозиторий.
+ 18. В веб интерфейсе GitHub создать файл new3.txt.
+ 19. Отредактировать в веб интерфейсе содержание файла “new3.txt” - написать информацию о своих предпочтениях 
+     (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+ 20. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 21. Синхронизировать внешний и локальный репозитории (слить изменения с внешнего репозитория) 
+ 22. Отредактировать в веб интерфейсе содержание файла “new2.json” - добавить информацию о своих предпочтениях 
+     (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+     Всё в формате JSON.
+ 23. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 24. Синхронизировать внешний и локальный репозитории 
+ 25. Отредактировать в веб интерфейсе содержание файла “new2.xml” - добавить информацию о своих предпочтениях
+     (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить).
+     Всё в формате XML.
+ 26. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 27. Синхронизировать внешний и локальный репозитории 
+Answer:
+ID| COMMAND                                                           | EXAMPLE
+---------------------------------------------------------------------------------------------------------------------------
+1 |touch                                                              | $ touch new.json
+2 |git add                                                            | $ git add new.json   
+3 |git commit -m                                                      | $ git commit -m "commit file new.json"
+4 |git push                                                           | $ git push
+5 |touch new2.json new2.xml new2.txt                                  | $ touch new2.json new2.xml new2.txt
+6 |git add .                                                          | $ git add .
+7 |git commit -m                                                      | $ git commit -m "commit files new2.json new2.xml new2.txt"
+8 |git push                                                           | $ git push
+9 |nano file_name                                                     | $ nano new2.txt
+                                                                           1. Name - Andrei Baranau;
+                                                                           2. Age - 40;
+                                                                           3. Animals - The guinea pig "Kroshka" has already died;
+                                                                           4. Future salary - It's depends.
+10|nano file_name                                                     | nano new2.json
+                                                                           {
+                                                                             "name": "Andrei Baranau",
+                                                                             "age": "41",
+                                                                             "animals": [
+                                                                             "guinea pig",
+                                                                             "dog",
+                                                                             "cat"
+                                                                                        ]
+                                                                           }
+11|git config -am                                                     | git config -am "Add and commit new2.txt"                                                                                   
+12|git config --global alias.ac '!git add -A && git commit -m'        | git config --global alias.ac '!git add -A && git commit -m'
+  |git ac -m                                                          | git ac -m   
+13| git push                                                          | $ git push
+14|nano new2.xml                                                      | $ nano new2.xml
+                                                                           <?xml version="1.0" encoding="UTF-8"?>
+                                                                           <about_me>
+                                                                                <name="en">Andrei Baranau</name>
+                                                                                <age>41</age>
+                                                                                <animals>dog</animals>
+                                                                                <future_salary>We will see<future_salary>
+                                                                           </about_me>
+15|git ac -m                                                          | $ git ac -m
+16|git push                                                           | $ git push
+17|mv /d/GitHub/group_23/homework_1.txt                               | $ mv /d/GitHub/group_23/homework_1.txt      
+  |/c/Users/group_23/git_repo/training/homework_1.txt                 |   /c/Users/group_23/git_repo/training/homework_1.txt (перемещаем нужную нам папку в  рабочею dir )
+  |git commit -am                                                     | $ git commit -am "add and commit file homework_1.txt"
+  |git push                                                           | $ git push "push on GitHub file homework_1.txt "  
+18|[Add file] [create new file] neww3.txt                             | $ see GitHub
+19|see GitHub                                                         | $ see GitHub
+20|[Commit new file]                                                  | $ see GitHub
+21|git pull                                                           | $ git pull
+22|see GitHub                                                         | $ see GitHub
+23|see GitHub                                                         | $ see GitHub    
+24|git pull                                                           | $ git pull
+25|see GitHub                                                         | $ see GitHub
+26|see GitHub                                                         | $ see GitHub
+27|git pull                                                           | $ git pull 
+
+
+
+
+
+
+
+
+
+
+
