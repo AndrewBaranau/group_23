@@ -1,0 +1,32 @@
+ID| COMMAND                                 | EXAMPLE
+------------------------------------------------------------------------------
+1 |pwd                                      | $ pwd
+2 |mkdir                                    | $ mkdir folder1   
+3 |cd                                       | $ cd folder1
+4 |mkdir                                    | $ mkdir folder1 folder2 folder3
+5 |cd ~/*                                   | $ cd ~/folder2  
+6 |touch *.txt(3) *.json(2)                 | $ touch file1.txt file12.txt file3.txt file4.json file15.json 
+7 |mkdir -p {a,b,c}                         | $ mkdir -p {folderA,folderB,folderC}
+8 |ls                                       | $ ls -la
+9 |nano filename                            | $ nano homework_1.txt 
+10|write text in the editor                 | "Hello World"
+11|^+X and [yes]                            | Ctrl+x and choose [y]
+12|cd ..                                    | cd ..
+13|mv folder1{file1.txt,file12.txt} folder2 | $ mv folder1{file1.txt,file12.txt} folder2
+14|cp folder2{file1.txt,file12.txt} folder3 | $ cp folder2{file1.txt,file12.txt} folder3
+15|find -name "filename"                    | $ find -name "fil1.txt"
+16|cat filename                             | $ cat file1.txt 
+17|head -n filename                         | $ head -2 file1.txt         |  
+18|tail -n filename                         | $ tail -3 file1.txt
+19|less filename                            | $ less file1.txt (to view it, use [y] or [Enter])
+20|date +"%T %G"                            | $ date +"%T %G"
+
+curl POST https://api.quarantine.country/api/v1/regions
+а я сделала curl -i https://api.quarantine.country/api/v1/regions
+
+
+
+
+
+
+               
