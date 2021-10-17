@@ -1,0 +1,23 @@
+SAMPLE BUG REPORT
+
+Bug_Name (Title): 
+Bug_ID: (It will be automatically created by the BUG Tracking tool once you save this bug).
+Severity: HIGH (High/Medium/Low) 
+Priority: HIGH (High/Medium/Low) 
+Reported By: Your Name
+Reported On: Date
+Status: New/Open/Active (Depends on the Tool you are using)
+Enviroment: Device, Version App, Version Brawser and so on.
+
+Description: What happened
+
+Steps to Reproduce:
+
+1) What steps to do before bug will appear
+2) 
+3) 
+4) 
+Actually Result: What result we achieved after our steps
+Expected Result: What we expect after our steps
+
+Attachments: screenshoot, files, code...
