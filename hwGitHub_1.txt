@@ -57,14 +57,14 @@ ID| COMMAND                                                           | EXAMPLE
 10|nano file_name                                                     | nano new2.json
                                                                            {
                                                                              "name": "Andrei Baranau",
-                                                                             "age": "41",
+                                                                             "age": 41,
                                                                              "animals": [
                                                                              "guinea pig",
                                                                              "dog",
                                                                              "cat"
                                                                                         ]
                                                                            }
-11|git config -am                                                     | git config -am "Add and commit new2.txt"                                                                                   
+11|git commit -am                                                     | git commit -am "Add and commit new2.txt"                                                                                   
 12|git config --global alias.ac '!git add -A && git commit -m'        | git config --global alias.ac '!git add -A && git commit -m'
   |git ac -m                                                          | git ac -m   
 13| git push                                                          | $ git push
